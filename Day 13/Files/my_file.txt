@@ -1,0 +1,3 @@
+I am 19 y/o
+I can code in python
+I am working with files
