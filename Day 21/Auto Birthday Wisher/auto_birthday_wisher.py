@@ -6,8 +6,8 @@ import os
 
 os.chdir("D:/My Stuff/100 Days of Code/Day 21")
 
-MY_EMAIL = "mprasad_be20@thapar.edu"
-MY_PASSWORD = "sanu1801"
+MY_EMAIL = "test_email"
+MY_PASSWORD = "test_password"
 
 now = dt.datetime.now()
 today = (now.month, now.day)
