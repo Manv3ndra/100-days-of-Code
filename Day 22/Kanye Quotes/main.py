@@ -22,7 +22,7 @@ quote_text = canvas.create_text(217, 225, text = "Kanye Quote goes here", width=
 canvas.grid(row=0,column=0)
 
 kanye_img = PhotoImage(file="Kanye Quotes/kanye.png")
-kanye_button = Button(image=kanye_img,highlightthickness=0, command=get_quote, borderwidth=0)
-kanye_button.grid(row=1,column=0)
+button = Button(image=kanye_img,highlightthickness=0, command=get_quote, borderwidth=0)
+button.grid(row=1,column=0)
 
 window.mainloop()
