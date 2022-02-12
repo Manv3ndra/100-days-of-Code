@@ -42,6 +42,6 @@ while True:
     time.sleep(60)
     if above() and is_night():
         connection = smtplib.SMTP("smtp.gmail.com")
-        connection.starttls
+        connection.starttls()
         connection.login("test_email", "test_password")
         connection.sendmail(from_addr="test_email",to_addrs="test_email",msg="Subject:Look Up\n\nThe ISS is above you in the sky")
