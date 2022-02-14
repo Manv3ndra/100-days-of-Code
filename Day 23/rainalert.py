@@ -1,8 +1,8 @@
 import requests
 import smtplib
 
-MY_EMAIL = "mprasad_be20@thapar.edu"
-MY_PASS = "sanu1801"
+MY_EMAIL = "test_email"
+MY_PASS = "test_password"
 
 url = "http://api.openweathermap.org/data/2.5/onecall/timemachine"
 api_key = "b879f898d193822508ddb28b8cdc0c63"
