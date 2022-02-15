@@ -1,7 +1,7 @@
 import requests
 
-MY_EMAIL = "mprasad_be20@thapar.edu"
-MY_PASS = "sanu1801"
+MY_EMAIL = "test_email"
+MY_PASS = "test_password"
 
 STOCK_NAME = "TSLA"
 COMPANY = "TESLA"
