@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 from requests.auth import HTTPBasicAuth
 
-API_ID = "a198d865"
-API_KEY = "a160f1526f951cb13f7d39d3a51a1bff"
+API_ID = "your_api_id"
+API_KEY = "your_api_key"
 
 GENDER = "male"
 WEIGHT = 52
@@ -44,4 +44,4 @@ for exercise in data["exercises"]:
         }
     }
 
-sheet_response = requests.post(url=shetty_endpoint, json=sheet_inputs, auth=("manvendra27","password123"))
+sheet_response = requests.post(url=shetty_endpoint, json=sheet_inputs, auth=("your_username","your_password"))
