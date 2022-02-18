@@ -1,7 +1,7 @@
 import requests
 
-MY_EMAIL = "test_email"
-MY_PASS = "test_password"
+MY_EMAIL = "tyour_email"
+MY_PASS = "your_password"
 
 STOCK_NAME = "TSLA"
 COMPANY = "TESLA"
