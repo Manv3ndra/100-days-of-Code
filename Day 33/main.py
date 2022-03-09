@@ -20,12 +20,12 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login("hackathontest30@gmail.com", "Psswrd123")
+    server.login(your email, your password)
 
     subject = f"Price of {title} has fallen"
     body = f"The price of {title} has fallen below 100$. Click the link below to buy: \n{product_url}"
     content = f"Subject: {subject}\n\n\n{body}"
-    server.sendmail("hackathontest30@gmail.com", "hackathontest30@gmail.com", content)
+    server.sendmail(to email address, from email address, content)
 
 if (price < 7621):
     send_mail()
